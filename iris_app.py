@@ -26,4 +26,3 @@ if st.button('Predict'):
 
   else:
     st.markdown (f'### Prediction is{model.predict([[sepal_length, sepal_width, petal_length, petal_width]])[0]}')
-
